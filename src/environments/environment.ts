@@ -1,6 +1,6 @@
 const loginUrl = 'https://nudegirls.tube/login';
 const logoutUrl = 'https://nudegirls.tube/logout';
-const frontendUrl = 'https://tube.nudegirls.tube/';
+const frontendUrl = 'https://video.nudegirls.tube/';
 const backendUrl =  'https://api.nudegirls.tube/';
 
 // const frontendUrl = 'http://localhost:4200/';
