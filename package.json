@@ -1,5 +1,5 @@
 {
-  "name": "ng-tube",
+  "name": "ng-video-tube",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run ng-tube:dev-serve-ssr",
-    "serve:ssr": "node tube-dist/ng-tube/server/main.js",
-    "build:ssr": "ng build && ng run ng-tube:server",
-    "prerender": "ng run ng-tube:prerender"
+    "dev:ssr": "ng run ng-video-tube:dev-serve-ssr",
+    "serve:ssr": "node tube-dist/ng-video-tube/server/main.js",
+    "build:ssr": "ng build && ng run ng-video-tube:server",
+    "prerender": "ng run ng-video-tube:prerender"
   },
   "private": true,
   "dependencies": {
