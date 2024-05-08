@@ -633,7 +633,7 @@ export class VideoComponent implements OnInit, OnChanges {
   }
 
   openProfile(Id): void {
-    const url = `https://tube.nude.girls/channel/${Id}`;
+    const url = `https://tube.nudegirls/channel/${Id}`;
     window.open(url, '_blank');
   }
 

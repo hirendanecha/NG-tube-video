@@ -1,7 +1,7 @@
-const loginUrl = 'https://nude.girls/login';
-const logoutUrl = 'https://nude.girls/logout';
-const frontendUrl = 'https://tube.nude.girls/';
-const backendUrl =  'https://api.nude.girls/';
+const loginUrl = 'https://nudegirls.tube/login';
+const logoutUrl = 'https://nudegirls.tube/logout';
+const frontendUrl = 'https://tube.nudegirls.tube/';
+const backendUrl =  'https://api.nudegirls.tube/';
 
 // const frontendUrl = 'http://localhost:4200/';
 // const backendUrl = 'http://localhost:8080/';
@@ -15,7 +15,7 @@ export const environment = {
   backendUrl: backendUrl,
   loginUrl: loginUrl,
   apiUrl: `${backendUrl}api/v1/`,
-  domain: '.nude.girls',
+  domain: '.nudegirls.tube',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
   conferenceUrl: 'https://facetime.tube/',

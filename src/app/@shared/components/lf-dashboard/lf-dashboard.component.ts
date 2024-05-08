@@ -109,7 +109,7 @@ export class LfDashboardComponent implements OnInit {
   }
 
   openProfile(Id): void {
-    const url = `https://nude.girls/settings/view-profile/${Id}`;
+    const url = `https://nudegirls.tube/settings/view-profile/${Id}`;
     window.open(url, '_blank');
   }
 
