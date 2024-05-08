@@ -80,9 +80,9 @@ export function app(): express.Express {
         var seo: any = {
           title: 'NudeGirls.tube video',
           description:
-            'Find like minded male or female unvaccinated organic humans!',
+            'Talk Face-to-Face One-on-One with hot nude girls',
           image:
-            'https://video.nudegirls.tube/assets/Healing-Tube-Logo.jpg',
+            'https://video.nudegirls.tube/assets/img/meta.png',
           site: 'https://video.nudegirls.tube/',
           url: 'https://video.nudegirls.tube' + params,
           keywords: 'NudeGirls.tube video',
@@ -128,7 +128,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'NudeGirls.tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.nudegirls.tube/assets/Healing-Tube-Logo.jpg',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.nudegirls.tube/assets/img/meta.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

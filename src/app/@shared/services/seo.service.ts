@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://video.nudegirls.tube/assets/Healing-Tube-Logo.jpg';
+      tagValue.image = 'https://video.nudegirls.tube/assets/img/meta.png';
     }
 
     this.meta.updateTag({
